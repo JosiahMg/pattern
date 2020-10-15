@@ -23,3 +23,13 @@ int main()
   delete p;
   return 0;
 }
+
+
+int oper()
+{
+  Creator *p = new ConcreteCreator();
+  p -> AnOperation();
+
+  delete p;
+  return 0;
+}
